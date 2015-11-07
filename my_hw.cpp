@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
    	for (int i = 1; i <= size_; i ++) {
    		img = imread(argv[i], 1);
    		imgs.push_back(img);
-   	} 
+   	}
 
     	//拼接  
   	Mat pano;  

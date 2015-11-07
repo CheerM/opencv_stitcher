@@ -3,3 +3,5 @@ project( my_hw )
 find_package( OpenCV REQUIRED )
 add_executable( my_hw my_hw.cpp )
 target_link_libraries( my_hw ${OpenCV_LIBS} )
+
+
